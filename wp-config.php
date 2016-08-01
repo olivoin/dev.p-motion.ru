@@ -20,13 +20,13 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define('DB_NAME', 'p-motion');
+define('DB_NAME', 'u0181833_devpmotion');
 
 /** Имя пользователя MySQL */
-define('DB_USER', 'admin');
+define('DB_USER', 'u0181833_default');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', 'ba0de51');
+define('DB_PASSWORD', 'U_I1Q!q1');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost');
