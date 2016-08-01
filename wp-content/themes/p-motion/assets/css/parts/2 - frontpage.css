@@ -1,0 +1,226 @@
+/* main page */
+
+.home-slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.home-slider li {
+    height: 75vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.last-news > .full-height {
+    
+}
+
+.last-news-header h2 {
+    font-size: 5vw;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.last-news-header p {
+    color: #fff;
+    font-size: 1.5vw;
+    width: 40%;
+    line-height: 1.6
+}
+
+.last-news-header p a {
+    color: #FF5656;
+    border-bottom: 1px dotted #FF5656;
+}
+
+.last-news-header p a:hover {
+    border: none;
+}
+
+.last-news-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: animatedBackground 50s linear infinite;
+	-moz-animation: animatedBackground 50s linear infinite;
+	-webkit-animation: animatedBackground 50s linear infinite;
+ 	-o-animation: animatedBackground 50s linear infinite;
+}
+
+@keyframes animatedBackground {
+    0 {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -600px 600px /* анимируем свойство background-position */
+    }
+}
+
+@-moz-keyframes animatedBackground {
+    0 {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -600px 600px
+    }
+}
+
+@-webkit-keyframes animatedBackground {
+    0 {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -600px 600px
+    }
+}
+
+@-o-keyframes animatedBackground {
+    0 {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -600px 600px
+    }
+}
+
+.last-news-bg video {
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    zoom: 0.8;   
+}
+
+.who-we-are {
+    padding: 150px 0;
+    width: 100%;
+    align-items: baseline;
+}
+
+.who-we-are-text {
+    width: 55%;
+    padding-right: 40px;
+}
+
+.who-we-are-services {
+    width: 45%;
+    padding-left: 40px;
+    border-left: 1px solid #F3F3F3;
+}
+
+.who-we-are h2 {
+    font-size: 40px;
+}
+
+.who-we-are-services > ul > li {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: baseline;
+}
+
+.who-we-are-services-img {
+    width: 200px;
+    text-align: right;
+    align-items: baseline;
+    padding-right: 30px;
+}
+
+.who-we-are-services-img h3 {
+    font-size: 34px;
+}
+
+.who-we-are-services-text {
+    width: 100%;
+    font-size: 20px;
+    color: #8B8B8B;
+    line-height: 1.6;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team .team-member:nth-of-type(1) {
+    background: #F5F5F5;
+}
+
+.team .team-member:nth-of-type(1) h2 {
+    font-size: 40px;
+    padding: 140px 45px;
+}
+
+.team-member {
+    width: 25%;
+    position: relative;
+}
+
+.team-member {
+    border: 1px solid #fff;
+}
+
+.team-member video {
+    width: 100%;
+    margin-bottom: -3px;
+}
+
+.team-member h3 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #fff;
+}
+
+.prolog {
+    padding: 150px 0;
+}
+
+.prolog h2 {
+    font-size: 40px;
+}
+
+/* contact us */
+
+.contact-us {
+    padding: 150px 0;
+    background: #fafafa;
+}
+
+.contact-us input,
+.contact-us textarea{
+    width: 100%;
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    padding: 45px;
+    font-size: 32px;
+    font-family: "gotham-regular";
+}
+
+.contact-us span.textarea-57 textarea {
+    margin-bottom: 35px;
+}
+
+.contact-us span.text-773 input {
+    width: 33.333%;
+    margin-right: 35px;
+}
+
+.contact-us input.wpcf7-submit {
+    width: 33.333%;
+    background: #FF5656;
+    color: #fff;
+}
+
+/* next */
+
+
+

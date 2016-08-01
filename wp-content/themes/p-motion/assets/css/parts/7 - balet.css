@@ -1,0 +1,120 @@
+body.postid-13 {
+    background-color: #040710;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'times new roman';    
+}
+
+body.postid-13 .main-header-menu {
+    background-color: #212121;
+    color: #fff;
+    font-size: 16px;
+}
+
+body.postid-13 .main-header-menu a {
+    color: #fff;
+}
+
+body.postid-13 p {
+    line-height: 35px;
+}
+
+.tcon-menu__lines,
+.tcon-menu__lines::before,
+.tcon-menu__lines::after{
+    background-color: #fff;
+}
+
+.header-balet {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 150px;
+}
+
+.header-balet h1 {
+    font-size: 56px;
+    margin-bottom: 50px;
+}
+
+.header-balet h2,
+.header-balet p{
+    color: #ccc;
+}
+
+body.postid-13 h2{
+    margin-bottom: 35px;
+    font-size: 45px;
+}
+
+.header-balet p,
+.balet-desc-1,
+.balet-desc-2 p{
+    width: 850px;
+    margin: auto;
+    text-align: center;
+    color: #ccc;
+}
+
+.balet-desc-1,
+.balet-desc-2,
+.balet-about,
+.balet-repertuar{
+    margin-bottom: 100px;
+}
+
+#single-wrapper > div:nth-of-type(8) {
+    margin-bottom: 0;
+    height: 588px;
+}
+
+.balet-repertuar .width-450 {
+    padding-top: 75px;
+}
+
+.balet-about {
+    padding: 420px 0px 150px 0px;
+    background: rgb(18,32,57);
+    background: -moz-linear-gradient(left,  rgba(18,32,57,1) 0%, rgba(11,110,137,1) 100%);
+    background: -webkit-linear-gradient(left,  rgba(18,32,57,1) 0%,rgba(11,110,137,1) 100%);
+    background: linear-gradient(to right,  rgba(18,32,57,1) 0%,rgba(11,110,137,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122039', endColorstr='#0b6e89',GradientType=1 );
+}
+
+.balet-quote {
+    padding: 150px 0;
+    background: rgb(18,32,57);
+    background: -moz-linear-gradient(left,  rgba(18,32,57,1) 0%, rgba(11,110,137,1) 100%);
+    background: -webkit-linear-gradient(left,  rgba(18,32,57,1) 0%,rgba(11,110,137,1) 100%);
+    background: linear-gradient(to right,  rgba(18,32,57,1) 0%,rgba(11,110,137,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122039', endColorstr='#0b6e89',GradientType=1 );
+}
+
+.balet-quote > div > p:nth-of-type(2) {
+    color: #ccc;
+}
+
+.balet-desc-2 {
+    text-align: center;
+    margin-bottom: -250px;
+}
+
+.balet-repertuar {
+    height: 850px;
+}
+
+.balet-repertuar img {
+    max-width: 700px;
+}
+
+.balet-site {
+    height: 800px;
+    background: url(http://radchenko-ballet.com/wp-content/themes/balet/assets/images/home/1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.balet-site a {
+    color: #fff;
+    padding: 15px;
+    border: 2px solid #fff;
+    text-decoration: none;
+}

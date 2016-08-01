@@ -1,0 +1,37 @@
+/* portfolio */
+
+#portfolio {
+    margin-top: 170px;
+}
+
+#portfolio .mix{
+    display: none;
+    border: 1px solid #ebebeb;
+}
+
+.portfolio-filter {
+    margin-bottom: 50px;
+}
+
+.portfolio-filter .filter {
+    display: inline-block;
+    color: #FF5656;
+    border-bottom: 1px dotted #FF5656;
+    margin-right: 21px;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.portfolio-filter .filter.active ,
+.portfolio-filter .filter:hover {
+    background: #FF5656;
+    color: #fff;
+}
+
+.post-image {
+    height: 300px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

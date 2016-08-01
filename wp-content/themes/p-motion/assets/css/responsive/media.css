@@ -1,0 +1,145 @@
+@media screen and (min-width:1650px) and (max-width:1920px) {
+    .wrap {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:1280px) and (max-width:1366px) {
+    .wrap {
+        width: 90%;
+    }
+    
+    .who-we-are,
+    .contact-us,
+    .prolog {
+        padding: 100px 0;
+    }
+    
+    .who-we-are h2 {
+        font-size: 36px;
+    }
+    
+    .contact-us input, .contact-us textarea {
+        padding: 30px;
+    }
+    
+    .service-title {
+        font-size: 240px;
+        left: 20vw;
+    }
+    
+    .section-work {
+        width: calc(100% - 100px);
+        left: 550px;
+    }
+    
+    .section .small-wrap {
+        width: 540px;
+        left: calc(50% - 370px);
+    }
+    
+    .section-first .small-wrap {
+        width: 600px;
+    }
+    
+}
+
+@media screen and (min-width:320px) and (max-width:420px) {
+    
+    .wrap,
+    .small-wrap {
+        width: 100%;
+        padding: 0 15px;
+    }
+    
+    .row .col-2,
+    .row .col-3,
+    .row .col-4,
+    .row>.col-3:nth-of-type(3n),
+    .row>.col-4:nth-of-type(4n){
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    
+    .main-header-menu .tcon {
+        left: -45px;
+    }
+    
+    .dis-flex {
+        flex-wrap: wrap;
+    }
+    
+    .last-news-header h2,
+    .who-we-are h2,
+    .prolog h2{
+        font-size: 32px;
+    }
+    
+    .last-news-header p {
+        font-size: 18px;
+        width: 100%;
+    }
+    
+    #header,
+    .bx-wrapper .bx-pager {
+        padding: 15px;
+    }
+    
+    .bx-wrapper .bx-pager.bx-default-pager a {
+        width: 15px;
+        height: 15px;
+    }
+    
+    .who-we-are,
+    .contact-us, .prolog{
+        padding: 70px 0;
+    }
+    
+    .who-we-are-text,
+    .who-we-are-services {
+        width: 100%;
+        padding: 0 0 0 0;
+        border: none;
+    }
+    
+    .team .team-member:nth-of-type(1) {
+        display: none;
+    }
+    
+    .team-member {
+        width: 100%;
+    }
+    
+    .contact-us input, .contact-us textarea {
+        font-size: 18px;
+    }
+    
+    .contact-us input.wpcf7-submit,
+    .contact-us span.text-773 input {
+        width: 100%;
+    }
+    
+    .contact-us span.text-773 input {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .contact-us input, .contact-us textarea {
+        padding: 15px;
+    }
+    
+    .service-page-nav {
+        display: none;
+    }
+    
+    .section-first .small-wrap {
+        left: 0;
+    }
+    
+    .service-title {
+        top: 120px;
+        font-size: 53px;
+    }
+    
+}
